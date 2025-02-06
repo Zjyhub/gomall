@@ -1,0 +1,7 @@
+go 1.22.11
+
+use (
+	./demo/demo_proto
+	./demo/demo_thrift
+	./hello_world
+)
