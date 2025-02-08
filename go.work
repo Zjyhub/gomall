@@ -1,6 +1,7 @@
 go 1.22.10
 
 use (
+	./app/frontend
 	./demo/demo_proto
 	./demo/demo_thrift
 	./hello_world
