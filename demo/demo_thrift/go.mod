@@ -1,13 +1,11 @@
 module gomall/demo/demo_thrift
 
-go 1.22.11
-
-replace github.com/apache/thrift => github.com/apache/thrift v0.13.0
+go 1.22.10
 
 require (
-	github.com/apache/thrift v0.13.0
+	github.com/apache/thrift v0.21.0
 	github.com/cloudwego/kitex v0.12.1
-	github.com/cloudwego/kitex/pkg/protocol/bthrift v0.0.0-20250120071802-1de9e03154ac
+	github.com/cloudwego/kitex/pkg/protocol/bthrift v0.0.0-20250124072755-047444c8e964
 	github.com/kitex-contrib/obs-opentelemetry/logging/logrus v0.0.0-20241120035129-55da83caab1b
 	github.com/kr/pretty v0.3.1
 	github.com/redis/go-redis/v9 v9.7.0

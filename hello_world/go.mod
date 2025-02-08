@@ -1,6 +1,6 @@
 module gomall/hello_world
 
-go 1.22.11
+go 1.22.10
 
 require github.com/cloudwego/hertz v0.9.5
 
